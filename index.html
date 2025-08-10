@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timesheet Tracker</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="notification.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Timesheet Tracker</h1>
+        <img src="UploadedImage0.jpg" alt="User Image" style="width:100px;border-radius:50%;">
+        <div id="timerDisplay" class="timer">00:00:00</div>
+        <div class="buttons">
+            <button onclick="startWork()">Start Work</button>
+            <button onclick="stopWork()">Stop Work</button>
+            <button onclick="startTravel()">Start Travel</button>
+            <button onclick="stopTravel()">Stop Travel</button>
+            <button onclick="resetTime()">Reset</button>
+            <button onclick="copyToClipboard()">Copy</button>
+            <button onclick="saveToFile()">Save</button>
+        </div>
+        <pre id="output"></pre>
+    </div>
+    <audio id="startSound" src="start.mp3" preload="auto"></audio>
+    <audio id="stopSound" src="stop.mp3" preload="auto"></audio>
+</body>
+</html>
