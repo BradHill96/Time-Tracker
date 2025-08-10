@@ -1,0 +1,10 @@
+
+{
+  "name": "Timesheet Tracker",
+  "short_name": "Timesheet",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#F1F1F1",
+  "theme_color": "#F1F1F1",
+  "icons": []
+}
